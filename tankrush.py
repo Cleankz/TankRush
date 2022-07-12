@@ -1,20 +1,20 @@
 def Trans_m(M):
-    Trans = []
+    Transpon_matr = [] # Trans - Transpon_matr
     for i in range(len(M[0])):
-        Trans.append([])  
+        Transpon_matr.append([])  
     for x in range(len(M[0])):
         for y in range(len(M)):
-            Trans[x].append(M[y][x])
-    return Trans
+            Transpon_matr[x].append(M[y][x])
+    return Transpon_matr
     
 
 
 def TankRush(H1, W1, S1,  H2, W2, S2):
-    s1 = S1.rsplit(' ')
-    s2 = S2.rsplit(' ')
+    s1 = S1.rsplit(' ') # s1 - input_str_1
+    s2 = S2.rsplit(' ') # s2 - input_str_2
     elem = 0
-    array_1 = []
-    array_2 = []
+    array_1 = [] # array_1 - array_inp_str_1
+    array_2 = [] # array_2 - array_inp_str_2
     there = False
     for i in range(H1):
         array = []

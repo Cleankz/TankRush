@@ -16,10 +16,10 @@ def TankRush(H1, W1, S1,  H2, W2, S2):
     array_1 = [] # array_1 - array_inp_str_1
     array_2 = [] # array_2 - array_inp_str_2
     there = False
-    for i in range(H1):
+    for i_str in range(H1): # i - i_str
         array = []
-        for j in range(W1):
-            array.append(s1[i][j])
+        for j_row in range(W1): # j - j_str
+            array.append(s1[i_str][j_str])
         array_1.append(array) 
     for i in range(H2):
         ar = []

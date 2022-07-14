@@ -40,7 +40,7 @@ def TankRush(H1, W1, S1,  H2, W2, S2):
             elif str_1.count(str_2) ==  0 and  elem < W2:
                 continue
     if elem == W2:
-        there = True
+        found = True # there-found
     else:
-        there = False
+        there = False# there-found
     return there

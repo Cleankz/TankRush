@@ -42,5 +42,5 @@ def TankRush(H1, W1, S1,  H2, W2, S2):
     if elem == W2:
         found = True # there-found
     else:
-        there = False# there-found
-    return there
+        found = False# there-found
+    return found

@@ -10,11 +10,11 @@ def Trans_m(M):
 
 
 def TankRush(H1, W1, S1,  H2, W2, S2):
-    s1 = S1.rsplit(' ') # s1 - input_str_1
-    s2 = S2.rsplit(' ') # s2 - input_str_2
+    input_str_1 = S1.rsplit(' ') # s1 - input_str_1
+    input_str_2 = S2.rsplit(' ') # s2 - input_str_2
     elem = 0
-    array_1 = [] # array_1 - array_inp_str_1
-    array_2 = [] # array_2 - array_inp_str_2
+    array_inp_str_1 = [] # array_1 - array_inp_str_1
+    array_inp_str_2 = [] # array_2 - array_inp_str_2
     there = False
     for i_str in range(H1): # i - i_str
         array = []

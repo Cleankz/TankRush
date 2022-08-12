@@ -1,4 +1,4 @@
-def Trans_m(M):
+def Trans_m(M): # превращаем матрицу в транспонированную 
     Transpon_matr = [] # Trans - Transpon_matr
     for i in range(len(M[0])):
         Transpon_matr.append([])  
@@ -29,7 +29,6 @@ def TankRush(INP_HEIGHT_MAT_1, INP_WIDTH_MAT_1, INP_STR_MAT_1,  INP_HEIGHT_MAT_2
 
     TRANS_MATR_1 = Trans_m(array_inp_str_1)# Trans_1 - TRANS_MATR_1
     TRANS_MATR_2 = Trans_m(array_inp_str_2)# Trans_2 - TRANS_MATR_2
-   
     for i in range(W2):
         str_2 = ''.join(TRANS_MATR_2[i])
         for j in range(INP_WIDTH_MAT_1):
